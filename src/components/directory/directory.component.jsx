@@ -4,8 +4,8 @@ import MenuItem from '../menu-item/menu-item.component';
 import './directory.style.scss';
 
 class Directory extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             sections: [
                 {
@@ -27,18 +27,18 @@ class Directory extends React.Component {
                     linkUrl: 'shop/sneakers'
                 },
                 {
-                    title: 'womens',
+                    title: 'women',
                     imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
                     size: 'large',
                     id: 4,
-                    linkUrl: 'shop/womens'
+                    linkUrl: 'shop/women'
                 },
                 {
-                    title: 'mens',
+                    title: 'men',
                     imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
                     size: 'large',
                     id: 5,
-                    linkUrl: 'shop/mens'
+                    linkUrl: 'shop/men'
                 }
             ]
         }
